@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'junction_regularregular';
+    src: url('../fonts/Junction-webfont.eot');
+    src: url('../fonts/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Junction-webfont.woff') format('woff'),
+         url('../fonts/Junction-webfont.ttf') format('truetype'),
+         url('../fonts/Junction-webfont.svg#junction_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Garamond, Times, serif;
+}
+
+.contain { 			/*Select all elements hwose class attributes include 'contain'*/
+	width: 940px;
+	margin: 0 auto; /*TBLR or Top and bottom*/
+}
+
+.visually-hidden {
+	position: fixed;
+	top: -999px;
+}
+/*clear fixes*/
+#content-wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#body-header {		/*Select all elements whose id attributes equals 'body-header'*/
+	margin-top: 40px;
+	margin-bottom: 16px;
+}
+#body-header a {
+	width: 222px;
+	display: block;
+	margin: 0 auto;
+}
+
+#body-header h1 {
+	margin: 0;
+}
+
+#primary-nav {
+	border-top: solid 1px #cfcfcf;
+	border-bottom: solid 1px #cfcfcf;
+	color: #cfcfcf;
+	text-align: center;
+}
+
+#primary-nav a:link,
+#primary-nav a:visited {
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal 18px/37px 'junction_regularregular';
+	display: inline-block;
+	margin-right: 33px;
+}
+
+#primary-nav a:link:last-of-type{
+	margin-right: 0;
+}
+
+#primary-nav a:hover {
+	color: #2f2e46;
+	border-top: solid 3px #2f2e46;
+	margin-top: -3px;
+}
+
+#content {
+	width: 700px;
+	float: left;
+}
+
+#sidebar {
+	width: 220px;
+	float: right;
+}
+
+#topcolumn,
+#border-bottomcolumn {
+	-webkit-column-count: 2;
+}
+#sidebartitle {
+	font-family: MyriadPro, serif;
+	font-size: 18px;
+}
+#sidebarlist{
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 16px;
+
+}

@@ -1,52 +1,6 @@
 About Outline
-h1		<section>		
-		Title
-			<p></p>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</section>
-
-		<section>
-h2		Heading 
-			<p></p>
-			<aside>
-				<li></li>
-				<li></li>
-			</aside>
-			<aside>
-			<ul>	(name of list?)
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			</aside>
-		</section>
-
-		<section>
-h3		Heading 
-			<p></p>
-		</section>
-
-		<section>
-Footer			<ul>
-				<li></li>
-				<li></li>
-			</ul>
-			<ul>
-				<li></li>
-				<li></li>
-			</ul>
-			<ul>
-				<li></li>
-				<li></li>
-			</ul>
-			<ul>
-				<li></li>
-				<li></li>
-			</ul>
-		</section>
+I.	Messina
+	A. Site Navigation
+	A.	Heading 
+		i. Heading 	
+Footer			
